@@ -13,7 +13,7 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-bitvec = { version = "1.0.1", default-features = false, features = ["alloc"] }
+bitvec = { git = "https://github.com/ferrilab/ferrilab", default-features = false, features = ["alloc"], rev = "68ab1dce6ad46442fe8681df75674737120ab115" }
 num-traits = { version = "0.2.17", default-features = false }
 chrono = { version = "0.4.31", default-features = false, features = ["alloc"] }
 log = "0.4.20"
